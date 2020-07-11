@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="SimPlan" Height="450" Width="800">
     <Grid>
-        <Label Content="Welcome To SimPlan" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-
+        <Label Content="Welcome To SimPlan" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="348,169,0,0"/>
+        <Button Margin="226,225,400,124" Background="#FF46FF00" FontFamily="Calibri">Open Previous Plan</Button>
+        <Button Margin="440,225,186,124" Background="#FF46FF00" FontFamily="Calibri">Start New Plan</Button>
     </Grid>
 </Window>
