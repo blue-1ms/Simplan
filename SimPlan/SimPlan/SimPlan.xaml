@@ -6,9 +6,16 @@
         xmlns:local="clr-namespace:SimPlan"
         mc:Ignorable="d"
         Title="SimPlan" Height="450" Width="800">
+
     <Grid>
-        <Label Content="Welcome To SimPlan" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="348,169,0,0"/>
-        <Button Margin="226,225,400,124" Background="#FF46FF00" FontFamily="Calibri">Open Previous Plan</Button>
-        <Button Margin="440,225,186,124" Background="#FF46FF00" FontFamily="Calibri">Start New Plan</Button>
+
+        <Label Content="Welcome To SimPlan" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="330,157,0,0"/>
+        <Button x:Name="Previous" Margin="220,225,406,124" Background="#FF46FF00" FontFamily="Calibri" Click="Click_Prev">Open Previous Plan</Button>
+        <Button x:Name="New" Margin="431,225,195,124" Background="#FF46FF00" FontFamily="Calibri" Click="Click_New">Start New Plan</Button>
+        <Image Margin="262,16,278,267" Source="Image1.png" Stretch="Fill" OpacityMask="Black">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
     </Grid>
 </Window>

@@ -13,5 +13,6 @@ namespace SimPlan
     /// </summary>
     public partial class App : Application
     {
+  
     }
 }
