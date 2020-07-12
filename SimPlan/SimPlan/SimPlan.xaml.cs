@@ -24,5 +24,25 @@ namespace SimPlan
         {
             InitializeComponent();
         }
+
+
+
+        private void Click_New(object sender, RoutedEventArgs e)
+        {
+            NewPlan Simplan = new NewPlan();
+            this.Visibility = Visibility.Hidden;
+            Simplan.Show();
+
+
+        }
+
+        private void Click_Prev(object sender, RoutedEventArgs e)
+        {
+            PreviousPlan Simplan = new PreviousPlan();
+            this.Visibility = Visibility.Hidden;
+            Simplan.Show();
+        }
+
+
     }
 }
